@@ -42,8 +42,11 @@ Para executar o Manager App, siga os passos abaixo:
 
 1. Certifique-se de ter o Python instalado em sua máquina.
 2. Clone o repositório para o seu ambiente local.
-3. Navegue até a pasta do projeto e instale as dependências necessárias utilizando o comando `pip install -r requirements.txt` (assumindo que um arquivo de dependências esteja presente).
-4. Execute o arquivo `main.py` com o comando `python main.py`.
+3. Crie um ambiente virtual para o projeto utilizando o comando `python -m venv venv`.
+4. Ative o ambiente virtual com o comando `source venv/bin/activate` (Linux) ou `venv\Scripts\activate` (Windows).
+5. Navegue até a pasta do projeto e instale as dependências necessárias utilizando o comando `pip install -r requirements.txt` (assumindo que um arquivo de dependências esteja presente).
+6. Execute o script `init_db.py` para criar o banco de dados SQLite com o comando `python init_db.py`.
+7. Execute o arquivo `main.py` com o comando `python main.py`.
 
 ## Contribuições
 
